@@ -36,7 +36,7 @@ html {
 
 .title p {
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.375rem;
     color: #f55f8d;
     margin-bottom: 20px;
 }
@@ -57,7 +57,7 @@ html {
 
 .title1 p {
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.375rem;
     color: #f55f8d;
     margin-bottom: 20px;
 }
@@ -71,7 +71,7 @@ html {
 }
 
 .section-padding {
-    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 /* img {
@@ -290,6 +290,14 @@ header {
 }
 
 /* ABOUT US  */
+.About {
+    background-image: url(../Samar/bg15.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 85px;
+    overflow: hidden;
+}
 .About p,
 .About ul {
     margin-bottom: 20px;
@@ -371,13 +379,12 @@ header {
 
 .Number {
     background-image: url(../Samar/bg14.png);
-
     background-position: center;
-
+    background-repeat: no-repeat;
     text-align: center;
     font-size: 18px;
     padding: 80px 0 60px 0;
-    margin-bottom: 100px;
+    color: #262626;
 
 }
 
@@ -431,8 +438,10 @@ header {
 /* FEATURE  */
 .features {
     background-image: url(../Samar/bg2.png);
-    background-position: cover;
-    background-repeat: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: hidden;
 }
 
 .features__container {
@@ -933,6 +942,7 @@ bottom: 30px; */
     background-image: url(../Samar/bg16.png);
     background-size: cover;
     background-position: center;
+    padding-bottom: 40px;
 }
 
 .container {
