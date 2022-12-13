@@ -238,19 +238,6 @@ header {
     text-align: center;
 }
 
-.Services__title p {
-    font-weight: 600;
-    font-size: 1.4rem;
-    color: #f55f8d
-}
-
-.Services__title h2 {
-    font-size: 4rem;
-    color: #262626;
-    margin-bottom: 20px;
-
-}
-
 .Services__content {
     display: flex;
     justify-content: center;
@@ -276,7 +263,7 @@ header {
 }
 
 .Services__items {
-    transform: translateY(50px);
+    transform: translateY(20px);
     transition: all 1s;
 }
 
